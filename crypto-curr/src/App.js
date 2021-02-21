@@ -5,6 +5,7 @@ import CryptoDetail from './components/CryptoDetail'
 function App() {
   return (
     <div className="container">
+      <h1 className="mt-3 mb-3">Crypto Market</h1>
        <Router>
                 <Switch>
                     <Route exact path="/" component={Pagination} />
